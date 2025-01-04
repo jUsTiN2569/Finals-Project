@@ -3,7 +3,7 @@
 
 
 import tkinter as tk
-from button import button
+from library.button import button
 
 class game():
     def __init__(self, click_count):
@@ -54,7 +54,7 @@ def speed():
     global click_count
 
     #Checks what animal you would be
-    if click_count >= 50:
+    if click_count >= 35:
         Speed = "cheater with an auto clicker"
     elif click_count >= 7:
         Speed = "cheetah"
